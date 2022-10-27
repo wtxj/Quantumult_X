@@ -2,7 +2,7 @@
 脚本名称:灵敢足迹
 *******************************
 [rewrite_local]
-^http[s]?:\/\/footprint-api\.quthing\.com\/vip\/state url script-response-body lgzj.js
+^https:\/\/footprint-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/wtxj/Quantumult_X/main/lgzj.js
 [mitm] 
 hostname = footprint-api.quthing.com
 *******************************/
