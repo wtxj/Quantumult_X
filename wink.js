@@ -17,7 +17,7 @@ const vip = '/user';
 
 
 if (url.indexOf(vip) != -1) {
-    obj.data.is_vip = true;
+    obj["\x64\x61\x74\x61"]["\x69\x73\x5f\x76\x69\x70"] = true;
 	body = JSON.stringify(obj);
 }
 $done({body});
