@@ -2,7 +2,7 @@
 脚本名称:堆糖
 *******************************
 [rewrite_local]
-^https?:\/\/api\.duitang\.com url script-response-body duitang.js
+^https?:\/\/api\.duitang\.com url script-response-body https://raw.githubusercontent.com/wtxj/Quantumult_X/main/duitang.js
 [mitm] 
 hostname = api.duitang.com
 *******************************/
