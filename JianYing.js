@@ -7,7 +7,7 @@ QQ交流群：1077223830
 *******************************
 
 [rewrite_local]
-^http?:\/\/api\.jianmovie\.com\/cardinfo*? url script-response-body JianYing.js
+^http?:\/\/api\.jianmovie\.com\/cardinfo*? url script-response-body https://raw.githubusercontent.com/wtxj/Quantumult_X/main/JianYing.js
 
 
 [mitm]
