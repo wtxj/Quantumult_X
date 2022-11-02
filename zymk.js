@@ -5,7 +5,7 @@ QQ交流群：1077223830
 *******************************
 
 [rewrite_local]
-^https?:\/\/logger\.zymk\.cn.*?|https?:\/\/apigate\.zymk\.cn.*?*? url script-response-body https://raw.githubusercontent.com/wtxj/Quantumult_X/main/zymk.js
+^https?:\/\/logger\.zymk\.cn.*?|https?:\/\/apigate\.zymk\.cn.*? url script-response-body https://raw.githubusercontent.com/wtxj/Quantumult_X/main/zymk.js
 
 
 [mitm]
