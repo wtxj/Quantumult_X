@@ -7,7 +7,7 @@ Quantumult_X
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/wtxj/Quantumult_X/main/VpnMaster.sgmodule
 [mitm] 
 hostname = buy.itunes.apple.com
-
+*********************************/
 Surge##Shadowrocket
 #!name=VPN大师
 #!desc=VPN大师解锁会员
