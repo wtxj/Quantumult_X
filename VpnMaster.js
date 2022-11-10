@@ -1,9 +1,19 @@
 
 /******************************
+
+Quantumult_X
+
 [rewrite_local]
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body VpnMaster.js
 [mitm] 
 hostname = buy.itunes.apple.com
+
+Surge##Shadowrocket
+#!name=VPN大师
+#!desc=VPN大师解锁会员
+
+[Script]
+VPN大师=type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,script-path=
 *******************************/
 
 var body = $response.body;
